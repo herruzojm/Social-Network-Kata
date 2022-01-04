@@ -45,9 +45,9 @@ Details
 
 * The application must use the console for input and output.
 * Users submit commands to the application. There are four commands. “posting”, “reading”, etc. are not part of the commands; commands always start with the user’s name.
-* posting: <user name> -> <message>
-* reading: <user name>
-* following: <user name> follows <another user>
-* wall: <user name> wall
+* posting: user_name -> message
+* reading: user_name
+* following: user_name follows another_user
+* wall: user_name wall
 * Don’t bother making it work over a network or across processes. It can all be done in memory, assuming that users will all use the same terminal.
 * Non-existing users should be created as they post their first message. Application should not start with a pre-defined list of users.
