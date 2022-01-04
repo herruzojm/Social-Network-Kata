@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8750C191-69DB-4118-881D-DC3C970AA732}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Domain", "SocialNetwork.Domain\SocialNetwork.Domain.csproj", "{BE32474F-7AB6-4F8E-BBC7-2AC90EA897E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.Domain.Tests", "SocialNetwork.Domain.Tests\SocialNetwork.Domain.Tests.csproj", "{609C6CF6-3863-441D-8703-915D23F2E5D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE32474F-7AB6-4F8E-BBC7-2AC90EA897E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE32474F-7AB6-4F8E-BBC7-2AC90EA897E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE32474F-7AB6-4F8E-BBC7-2AC90EA897E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE32474F-7AB6-4F8E-BBC7-2AC90EA897E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609C6CF6-3863-441D-8703-915D23F2E5D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609C6CF6-3863-441D-8703-915D23F2E5D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609C6CF6-3863-441D-8703-915D23F2E5D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609C6CF6-3863-441D-8703-915D23F2E5D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E76A62BB-7FD1-4C80-B1B8-3DEE42332EA5}
+	EndGlobalSection
+EndGlobal
